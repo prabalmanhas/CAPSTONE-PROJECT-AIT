@@ -8,8 +8,8 @@ int gled = 7; // optional
 int rled = 4;// optional
 MFRC522 mfrc522(SS_PIN, RST_PIN); // Create MFRC522 instance.
 String card_ID=""; // 
-String password="18120129" ; // MY WINDOWS LOGIN PIN
-String rfid="1955147221"; // THE UNIQUE ID OF RFID TAG WHICH WILL BE MAPPED TO OUR WINDOWS LAPTOP FOR LOGIN AUTOMATION
+String password="" ; // MY WINDOWS LOGIN PIN
+String rfid=""; // THE UNIQUE ID OF RFID TAG WHICH WILL BE MAPPED TO OUR WINDOWS LAPTOP FOR LOGIN AUTOMATION
 void setup() {
   Serial.begin(9600); // INTIALIZING THE SERIAL COMMUNICATION WITH OUR PC
   SPI.begin();  // INIT SPI BUS
