@@ -10,4 +10,3 @@ Flowchart:
 Designed Circuit:
 
 ![Circuit Schema RFID Interfacing with Arduino](https://github.com/user-attachments/assets/461003e4-6875-4531-a25d-6d30292961ff)
-![solder](https://github.com/user-attachments/assets/623ed686-808b-470a-b005-0f75414fabeb)
